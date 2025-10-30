@@ -17,6 +17,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run VPS
-        run: apt update
-        run: apt install tmate
-        run: tmate
+        run: apt update , apt install tmate , tmate
